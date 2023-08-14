@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write CSS code here */
+.list-container {
+  height: 100%;
+  width: 100%;
+  background-color: #f4faff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-info {
+  margin: 20px;
+  padding: 20px;
+  width: 65%;
+  text-align: center;
+}
+.list-heading {
+  font-size: 50px;
+}
+.tech-list {
+  padding: 20px;
+  margin: 20px;
+}
+.list-heading {
+  color: #171f46;
+}
+.list-info {
+  color: #64748b;
+}
+@media all and (min-width: 577px) {
+  .tech-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media all and (max-width: 576px) {
+  .tech-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+}

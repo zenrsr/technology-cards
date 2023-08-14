@@ -1,0 +1,39 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+.tech-card {
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.tech-avatar {
+  align-self: flex-end;
+  margin: 20px;
+}
+@media all and (min-width: 577px) {
+  .tech-card {
+    width: 400px;
+    background-image: #ffffff;
+  }
+}
+@media all and (max-width: 576px) {
+  .tech-card {
+    background-image: #ffffff;
+  }
+}
